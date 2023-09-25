@@ -1,0 +1,1 @@
+<img class="banner" src="<?= asset('img/660922-3D.jpg'); ?>" alt="">

@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@charset "UTF-8";
+
+/*!
+ * Bootstrap v4.6.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+body {
+  background-color: #f3fefe;
+  color: #000000;
+}
+
+.banner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  -webkit-mask-image: linear-gradient(to top, transparent 27%, #f3fefe 90%);
+  /* height: auto; */
+}
+
+.container {
+  top: 10px;
+  position: relative;
+}
+
+.topo {
+  margin-top: 10em !important;
+}
+
+.logo {
+  margin-top: 6em !important;
+  width: 200px;
+  height: 200px;
+}
+.logo-nome {
+  max-width: 25em;
+  margin: 0;
+  padding: 0;
+}
+
+/* max device width */
+@media screen and (max-device-width: 480px) {
+	.iphone {
+    max-width: 15em;
+	}
+  .banner {
+    top: 2em;
+  }
+}
+
+/* max device width */
+@media screen and (min-device-width: 480px) {
+	.banner {
+    top: -6em;
+  }
+}
