@@ -1,45 +1,128 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
-@charset "UTF-8";
-
-/*!
- * Bootstrap v4.6.0 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-
-body {
-  background-color: #f3fefe;
-  color: #000000;
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-height: 65em;
+}
+.carousel-caption {
+  bottom: 270px;
 }
 
-.banner {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  -webkit-mask-image: linear-gradient(to top, transparent 27%, #f3fefe 90%);
-  /* height: auto; */
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
 }
 
-.container {
-  top: 10px;
-  position: relative;
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
 }
 
-.topo {
-  margin-top: 10em !important;
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.nav-link.active,.nav-link:focus{
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+/* ignore the code below */
+
+.link-area
+{
+  position:fixed;
+  bottom:20px;
+  left:20px;  
+  padding:15px;
+  border-radius:40px;
+  background:tomato;
+}
+.link-area a
+{
+  text-decoration:none;
+  color:#fff;
+  font-size:25px;
 }
 
 .logo {
-  margin-top: 6em !important;
+  /* margin-top: 6em !important;
   width: 200px;
-  height: 200px;
+  height: 200px; */
 }
 .logo-nome {
+  width: 100%;
+}
+
+.navtop {
+  background-color: #000000a3;
+}
+.navbar > div.container{
   max-width: 25em;
-  margin: 0;
-  padding: 0;
+  height: 3em;
+}
+
+.btn-menu{
+  border: 1px solid #878686;
+  color: #ddd;
+}
+
+.btn-menu:hover{
+  border: 1px solid #878686;
+  color: #ddd;
+}
+
+.btn-orcamento{
+  left: 25em;
+  border: 1px solid #878686;
+  color: #ddd;
+}
+
+.btn-orcamento:hover{
+  left: 25em;
+  border: 1px solid #878686;
+  color: #ddd;
 }
 
 /* max device width */
